@@ -1,0 +1,407 @@
+/* CSS Document Made by Albert Lombarte ajlombarte@yahoo.es*/
+
+body{
+	font-family:'Montserrat', Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#6b6b6b;
+	padding:0;
+	margin:0;
+	text-align: center;
+	color: #444;
+    text-shadow: 1px 0px 1px #fff;
+    background: url(../img/fondo.jpg) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+select{
+	font-family:'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+label{ min-width:130px; display:inline-block; text-align:right}
+
+
+.mceLayout{
+	margin-left: 60px !important;
+}
+
+.tdclient{
+	cursor: pointer;
+}
+
+
+.tdclient:hover{
+	font-weight: bold;
+	color: #1212ed;
+}
+
+.cursiva{
+	font-style: italic;
+	font-weight: bold;
+}
+
+h3{padding:0 10px;}
+
+form input[type=text],form input[type=password],form select{ border:solid 1px #ccc; width:200px; margin:5px 0px; height:24px; padding: 0 5px}
+
+form select{width:213px;}
+
+
+
+tr{height:18px;}
+
+td{text-align:center;     height: 20px;}
+
+.left{text-align:left !important; padding-left:5px;}
+
+
+
+.subtab{
+
+	background-color: #75888a;	
+
+}
+
+.subtab thead td{ font-weight: bold; background-color:#75888a; color:#fff }
+
+.subtab td{background-color: #f5f5f5;}
+
+
+
+.inputpeque{
+
+	width: 50px !important;
+
+	text-align: center !important;
+
+}
+
+
+
+.head{
+
+	height: 20px;
+
+	background: #f1f1f1;
+
+	text-align: left;
+
+	padding:10px;
+
+	box-shadow: 0 5px 8px #444;
+
+	font-weight: bold;
+
+}
+
+#hmenu{
+
+    position: absolute;
+
+    /* float: right; */
+
+    right: 10px;
+
+    top: 10px;
+
+}
+
+
+
+#hmenu label{
+
+	font-weight: bold;
+
+	margin-top: -5px;
+
+}
+
+
+
+img{
+
+	vertical-align: middle;
+
+}
+
+
+
+#hmenu div{
+
+	padding: 8px;
+
+	margin-top: -13px;
+
+}
+
+#hmenu div span{ 
+
+    position: absolute;
+
+    color: #f00000;
+
+    font-weight: bold;
+
+    margin: 5px 0 0 -19px;
+
+}	
+
+
+
+#principal{
+
+	width: 600px;
+
+}
+
+
+
+/*table{min-height:250px}*/
+
+
+
+.ventana{ background:#fff; /*border-radius:5px;*/  border:solid 1px #999; margin: 10px auto !important; overflow:hidden; box-shadow: 0 5px 8px #444; background:#f1f1f1; display: inline-block;
+
+    vertical-align: top;}
+
+.d600{min-width:600px; min-height:300px;}
+
+.d700{min-width:700px; min-height:300px;     max-width: 950px;}
+
+.d800{min-width:800px; min-height:300px;}
+
+.d1000{min-width:1000px; min-height:300px;}
+
+
+
+
+
+.close{    width: 16px;
+
+    height: 16px;
+
+    float: right;
+
+    /* position: absolute; */
+
+    /* left: 100%; */
+
+    /* margin-left: -25px; */
+
+    /* margin-top: 3px; */
+
+    background: url(../img/actiu0.png);
+
+    border-radius: 2px;
+
+    /* top: 7px; */
+
+    margin: 0px 8px 0 0;
+
+    color: #fff;}
+
+
+
+.vtit{font-weight:bold; margin:0; padding:7px 0 0 15px; height:25px; font-size:16px; text-align: center; }
+
+
+
+.deg, input[type=button], input[type=reset]{
+
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+1,c4c4c4+100 */
+
+background: #f2f2f2; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #f2f2f2 1%, #c4c4c4 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #f2f2f2 1%,#c4c4c4 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #f2f2f2 1%,#c4c4c4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#c4c4c4',GradientType=0 ); /* IE6-9 */
+
+
+
+border-bottom: solid 1px #aaa;
+
+border-top: solid 1px #fff;
+
+}
+
+
+
+.in_vent{padding:15px;}
+
+.bloc{
+
+	margin: 10px; 
+
+	/*display:inline-block;*/ 
+
+	text-align:left; 
+
+	padding: 0 10px 0 0; 
+
+	/*background: #f9f9f9; border: solid 1px #ccc;*/
+
+	}
+
+.cent{ text-align:center;}
+
+.left{ text-align:left;}
+
+form{text-align:center;}
+
+
+
+input{/*font-size:14px;*/ font-family:'Montserrat', Arial, Helvetica, sans-serif; font-size:12px}
+
+select{
+
+	font-size:12px
+
+}
+
+
+
+input[type=button],input[type=reset]{ border:none; padding:10px 15px; border-radius:5px;  border:solid 1px #aaa; cursor:pointer; margin:5px 10px 5px 0;     box-shadow: 0px 2px 2px #999;}
+
+input[type=button]:hover,input[type=reset]:hover{background:#ccc;}
+
+
+
+input[type="image"]{
+
+	/*width: 22px; height: 22px;*/
+
+	
+
+}
+
+
+
+.error_label{color:#900; height:5px;}
+
+
+
+#menu{ 
+
+	/*padding: 5px;*/
+
+	margin-top: -24px;	
+
+}
+
+
+
+#acciones{ 
+
+	margin:0; 
+
+	padding:0; 
+
+	text-align: center; 
+
+	font-weight:bold; 
+
+	cursor:pointer; 
+
+	font-size:12px;
+
+	
+
+	}
+
+	
+
+#acciones div{    padding: 10px;
+
+    display: inline-block;
+
+    border: solid 1px #f5f5f5;
+
+    /* background: url("../img/editar.png") no-repeat scroll 5px 7px; */
+
+    background: #fff;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    box-shadow: 0 0 2px #000;
+
+    margin: 0 1px;
+
+    }
+
+ 
+
+ #acciones div img{ width: 80px; height: 80px }
+
+
+
+ 
+
+#acciones div:hover{ 
+
+border:solid 1px #666; 
+
+background: #eee;
+
+}
+
+/*#acciones #Salir{background: url("../img/actiu0.png") no-repeat scroll 5px 7px;}*/
+
+
+
+table{ width:100%;}
+
+textarea{width:100%;}
+
+#browser{
+
+	text-align: left;
+
+}
+
+
+
+.rojo{
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+
+background: #a3727c !important; /* Old browsers */
+
+background: -moz-linear-gradient(top, #a3727c 0%, #8c5561 45%, #6b5156 100%) !important; /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top, #a3727c 0%,#8c5561 45%,#6b5156 100%) !important; /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom, #a3727c 0%,#8c5561 45%,#6b5156 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3727c', endColorstr='#6b5156',GradientType=0 ) !important; /* IE6-9 */
+
+color: #fff !important;
+
+box-shadow: 0px 2px 2px #333 !important;
+
+    border: solid 1px #666 !important;
+
+}
+
+
+
+.mceNoEditor{
+
+    width: 206px;
+
+    height: 60px;
+
+    vertical-align: top;
+
+}
+
+
+
